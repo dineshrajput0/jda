@@ -196,6 +196,7 @@ color: #337ab7;
   display: block;
 }
 .watermarkCls{
+	margin-top:10%;
   display: flex;
 justify-content: center; /* align horizontal */
 align-items: center; /* align vertical */
