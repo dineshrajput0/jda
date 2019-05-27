@@ -201,3 +201,33 @@ color: #337ab7;
 justify-content: center; /* align horizontal */
 align-items: center; /* align vertical */
 }
+
+.account_menu{
+  padding:20px;
+}
+
+.mat-button{
+color:#007AB4;
+}
+button.mat-menu-item {
+  width: 100%;
+  background: #007AB4;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+}
+button.mat-menu-item:hover{
+  width: 100%;
+  background: #135E82;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+}
+button.mat-menu-item:hover:not([disabled]) {
+  background: #135E82;
+}
+.headerSearch a.mat-button .mat-button-wrapper{
+background:#fff;display: block;
+color:#333;    border-radius: 16px;
+
+}
